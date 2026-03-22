@@ -3,12 +3,10 @@
 An AI-powered news research web application that allows investors and traders to analyze stock-related news articles and websites in real-time. Users can submit up to **10 URLs** from financial news sources, and the app uses a **RAG (Retrieval-Augmented Generation)** pipeline to answer questions based on the content of those pages.
 
 
-
 ## 🔍 Overview
 
 This tool helps investors and traders extract insights from financial news without reading through dozens of articles manually. Simply paste URLs, ask questions, and get AI-generated answers with sources — all in real-time.
 
----
 
 ## ✨ Features
 
@@ -21,7 +19,6 @@ This tool helps investors and traders extract insights from financial news witho
 - 💾 Saves the FAISS index locally using `pickle` for reuse
 - 🖥️ Clean interactive interface built with **Streamlit**
 
----
 
 ## 🛠️ Tech Stack
 
@@ -37,14 +34,13 @@ This tool helps investors and traders extract insights from financial news witho
 | dotenv | Managing environment variables |
 | pickle | Saving and loading FAISS index |
 
----
 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/123modelname/your-repo-name.git
+git clone https://github.com/rohinikruthika/Stock-Trend-Analyzer.git
 cd your-repo-name
 ```
 
@@ -62,7 +58,6 @@ Create a `.env` file in the root directory:
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-> ⚠️ Never share your `.env` file. It is already listed in `.gitignore`.
 > You can get your OpenAI API key from [platform.openai.com](https://platform.openai.com)
 
 ### 4. Run the App
@@ -70,8 +65,6 @@ OPENAI_API_KEY=your_openai_api_key_here
 ```bash
 streamlit run testapp.py
 ```
-
----
 
 ## 📖 How to Use
 
@@ -82,7 +75,6 @@ streamlit run testapp.py
 5. The app will return an **AI-generated answer** along with the **sources** it used
 6. Your full **chat history** is displayed below for reference
 
----
 
 ## 📁 Project Structure
 
@@ -95,13 +87,9 @@ streamlit run testapp.py
 └── README.md                   # Project documentation
 ```
 
----
 
 ## 📦 Requirements
 
-Create a `requirements.txt` with the following:
-
-```
 streamlit
 langchain
 langchain-openai
@@ -113,15 +101,13 @@ unstructured
 python-dotenv
 ```
 
----
 
 ## ⚠️ Disclaimer
 
 This tool is for **educational and informational purposes only**. It does not constitute financial advice. Always consult a qualified financial advisor before making investment decisions.
 
----
 
 ## 👤 Author
 
-**123modelname**  
-GitHub: [github.com/123modelname](https://github.com/123modelname)
+**Rohini Mandepula**  
+GitHub: https://github.com/rohinikruthika
