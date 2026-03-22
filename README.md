@@ -2,7 +2,7 @@
 
 An AI-powered news research web application that allows investors and traders to analyze stock-related news articles and websites in real-time. Users can submit up to **10 URLs** from financial news sources, and the app uses a **RAG (Retrieval-Augmented Generation)** pipeline to answer questions based on the content of those pages.
 
----
+
 
 ## 🔍 Overview
 
