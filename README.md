@@ -89,7 +89,7 @@ streamlit run testapp.py
 
 
 ## 📦 Requirements
-
+'''
 streamlit
 langchain
 langchain-openai
